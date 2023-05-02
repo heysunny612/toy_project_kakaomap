@@ -35,7 +35,7 @@
 
   const mapContainer = new kakao.maps.Map($map, {
     center: new kakao.maps.LatLng(defaultPosition.lat, defaultPosition.lng),
-    level: 3,
+    level: 4,
   });
 
   const createMakerImage = () => {
@@ -58,7 +58,7 @@
       const { id, name, lat, lng } = shop;
       const marker = createMaker(lat, lng);
       const infoWindow = new kakao.maps.InfoWindow({
-        content: `<div style="width:150px; text-align:center; padding:6px 2px;"><a href="https://place.map.kakao.com/${id}" target="_blank">${name}</a></div>`,
+        content: `<div class="badge"><a href="https://place.map.kakao.com/${id}" target="_blank">${name}</a></div>`,
       });
       infoWindow.open(mapContainer, marker);
     });
