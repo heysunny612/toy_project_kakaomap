@@ -2,7 +2,9 @@
 - 카카오맵 API <br/>
 - WEB APT : Geolocation 사용하여, 현재 위치 가져오기
 
-![Animation12](https://user-images.githubusercontent.com/127499117/235601494-963880eb-ad1e-45e0-8ee9-57bc15c33d8c.gif)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/127499117/235601494-963880eb-ad1e-45e0-8ee9-57bc15c33d8c.gif" alt="Animation12">
+</p>
 
 >회사 홈페이지등 지도가 필요로한 페이지에서 유용하게 사용할 수 있는 카카오맵 API를 사용해보았고, 카카오맵 API에서 기본적으로 제공해주는 여러가지 메서드들을 확인해보았다. 그리고 브라우저에서 제공해주는 geolocation API도 사용해 볼 수 있었다.
 
